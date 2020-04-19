@@ -1,3 +1,72 @@
 .carousel{
 	width: 750rpx;
 }
+
+/* 热门超英 start */
+.super-hot{
+	margin-top: 12rpx;
+	padding: 20rpx;
+}
+
+.hot-title-wapper{
+	display: flex;
+	flex-direction: row;
+}
+
+.hot-ico{
+	width: 30rpx;
+	height: 30rpx;
+	margin-top: 15rpx;
+}
+
+.hot-title{
+	font-size: 20px;
+	margin-left: 20rpx;
+	font-weight: bold;
+}
+
+.hot{
+	width: 100%;
+	white-space: nowrap;
+}
+
+.single-poster{
+	display: inline-block;
+	margin-left: 20rpx;
+}
+
+.poster-wapper{
+	display: flex;
+	flex-direction: column;
+}
+
+.poster{
+	width: 200rpx;
+	height: 270rpx;
+}
+
+.movie-name{
+	width: 200rpx;
+	margin-top: 10rpx;
+	font-size: 14px;
+	font-weight: bold;
+	/* 名字超出则省略 */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.hot-movies{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0rpx 20rpx 20rpx 20rpx;
+}
+
+.hot-movie-single{
+	height: 220rpx;
+	width: 350rpx;
+	margin-top: 10rpx;
+}
+/* 热门超英 end */
